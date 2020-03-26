@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #This program is aim to plot GC content over a genome
-#usage:plot_GC_content.py genome.fna 10000 10000 GC_content.jpg
+#usage:python3 GCploter.py [-h] [-o output_file] input_fasta_file window_size step
 
 import argparse
 import sys

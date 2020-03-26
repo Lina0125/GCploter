@@ -1,7 +1,6 @@
 # Description
 
-    This script will first extract sequence from FASTA file to a string,then calculate GC content according to the defined window size and step,
-    finally,it plots GC content against position.Users will get a image which plot GC content over a sequence(like a genome).
+    This script will first extract sequence from FASTA file to a string,then calculate GC content according to the defined window size and step,finally,it plots GC content against position.Users will get a image which plot GC content over a sequence(like a genome).
 	
 # Usage
     python3 GCploter.py [-h] [-o output_file] input_fasta_file window_size step
